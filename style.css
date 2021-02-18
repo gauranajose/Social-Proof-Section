@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 100vh;
+  height: auto;
   width: 100%;
   background: url('images/bg-pattern-top-desktop.svg') no-repeat 500px 0px,
     url('images/bg-pattern-bottom-desktop.svg') no-repeat 400px 300px;
@@ -31,6 +31,7 @@ h3 {
 
 #main {
   /* background: #ccc; */
+  margin-top: 100px;
   height: 600px;
   width: 1100px;
   display: flex;
